@@ -1,0 +1,949 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1860 2160" width="1860" height="2160" role="img" aria-labelledby="title desc">
+<title id="title">Sixteen enterprise screen archetypes — taste-neutral structural atlas</title>
+<desc id="desc">Sixteen fundamentally different enterprise software screen archetypes in monochrome: record form, kanban, calendar, map, flow designer, conversation, document editor, media gallery, timeline feed, wizard, inbox triage, floor plan, faceted search, comparison, approval chain, action console. Generic Lorem ipsum content only. No color, brand, or domain assumptions.</desc>
+<style>
+  :root{color-scheme:light dark}
+  svg{font-family:Arial,Helvetica,sans-serif;color:CanvasText;background:Canvas}
+  text{fill:currentColor;font-family:Arial,Helvetica,sans-serif}
+  .panel,.box,.cell,.line,.control,.node,.edge,.tile{fill:none;stroke:currentColor;vector-effect:non-scaling-stroke}
+  .surface{fill:Canvas;stroke:currentColor}
+  .inverse{fill:currentColor}
+  .inverseText{fill:Canvas}
+  .line,.cell{stroke-width:1}
+  .box,.control,.node,.tile{stroke-width:1.25}
+  .panel{stroke-width:1.6}
+  .heavy{stroke-width:2.5}
+  .selected{stroke-width:3.5}
+  .focus{stroke-width:2;stroke-dasharray:3 2}
+  .valid{stroke-width:3;stroke-dasharray:6 4}
+  .invalid{stroke-width:3;stroke-dasharray:2 2}
+  .dash{stroke-dasharray:6 4}
+  .dot{stroke-dasharray:1 3}
+  .hair{stroke-width:.7}
+  .ghost{opacity:.45}
+  .muted{opacity:.62}
+  .disabled{opacity:.3}
+  .dense{opacity:.85}
+  .label{font-size:10px;letter-spacing:.08em;text-transform:uppercase}
+  .tiny{font-size:9px}
+  .small{font-size:10.5px}
+  .body{font-size:12px}
+  .strong{font-size:12px;font-weight:700}
+  .heading{font-size:15px;font-weight:700}
+  .title{font-size:24px;font-weight:700}
+  .num{font-size:11px;font-weight:700}
+</style>
+
+<!-- ============ HEADER ============ -->
+<rect class="panel heavy" x="10" y="10" width="1840" height="2140"/>
+<text class="title" x="30" y="48">SIXTEEN SCREEN ARCHETYPES — STRUCTURAL ATLAS</text>
+<text class="body" x="30" y="70">Not everything is a table, a Gantt, or a board. Sixteen distinct control-surface families; each still carries the full interaction contract: primary action, context actions, manipulation, disclosure, reversibility, states, keyboard path.</text>
+<text class="small muted" x="30" y="88">Monochrome by design · sans-serif only · generic placeholder content · line weight and dash patterns encode state · no domain, brand, or color decisions</text>
+
+<!-- ============================================================ -->
+<!-- 01 RECORD FORM -->
+<!-- ============================================================ -->
+<g transform="translate(20,130)">
+<rect class="panel" x="0" y="0" width="440" height="470"/>
+<text class="num" x="14" y="22">01</text><text class="label" x="40" y="22">Record form — sectioned data entry</text>
+<line class="line" x1="14" y1="32" x2="426" y2="32"/>
+
+<text class="strong" x="14" y="52">Lorem ipsum</text>
+<line class="hair" x1="110" y1="48" x2="426" y2="48"/>
+<text class="tiny" x="14" y="72">Dolor sit *</text><rect class="control" x="120" y="60" width="180" height="20"/><text class="small" x="126" y="74">Lorem ipsum dolor</text>
+<text class="tiny" x="14" y="98">Amet elit</text><rect class="control focus" x="120" y="86" width="180" height="20"/><text class="small" x="126" y="100">Consectetur|</text>
+<text class="tiny" x="14" y="124">Adipiscing *</text><rect class="control invalid" x="120" y="112" width="180" height="20"/><text class="small muted" x="126" y="126">—</text>
+<text class="tiny dense" x="306" y="126">! required · inline validation</text>
+<text class="tiny" x="14" y="150">Sed do</text><rect class="control" x="120" y="138" width="90" height="20"/><text class="small" x="126" y="152">12</text>
+<text class="tiny" x="222" y="150">Eiusmod</text><rect class="control" x="286" y="138" width="90" height="20"/><text class="small" x="292" y="152">08/18</text>
+
+<text class="strong" x="14" y="186">Tempor incididunt</text>
+<line class="hair" x1="140" y1="182" x2="426" y2="182"/>
+<rect class="control" x="14" y="196" width="412" height="64"/>
+<text class="small" x="22" y="212">Ut enim ad minim veniam, quis nostrud</text>
+<text class="small" x="22" y="228">exercitation ullamco laboris nisi ut</text>
+<text class="small muted" x="22" y="244">aliquip ex ea commodo…</text>
+<text class="tiny dense" x="330" y="254">multiline · 214/500</text>
+
+<text class="strong" x="14" y="286">Labore dolore</text>
+<line class="hair" x1="110" y1="282" x2="426" y2="282"/>
+<text class="small" x="14" y="306">☑ Magna aliqua</text><text class="small" x="130" y="306">☐ Ut enim</text><text class="small" x="220" y="306">☑ Minim veniam</text>
+<text class="small" x="14" y="328">◉ Quis</text><text class="small" x="90" y="328">○ Nostrud</text><text class="small" x="170" y="328">○ Ullamco</text>
+<rect class="control" x="14" y="342" width="200" height="20"/><text class="small" x="22" y="356">Duis aute ▾</text>
+<text class="tiny dense" x="222" y="356">single-select · keyboard: ↑↓ Enter</text>
+
+<rect class="box dash" x="14" y="374" width="412" height="40"/>
+<text class="tiny" x="22" y="390">ATTACHMENT ZONE — drop files or browse</text>
+<text class="tiny muted" x="22" y="404">irure dolor in reprehenderit · max 25 MB</text>
+
+<rect class="inverse" x="0" y="424" width="440" height="30"/>
+<text class="small inverseText" x="14" y="443">● Unsaved changes</text>
+<text class="small inverseText" x="300" y="443">Discard</text>
+<rect class="surface" x="360" y="429" width="66" height="20"/><text class="small" x="384" y="443">Save</text>
+<text class="tiny dense" x="14" y="464">states: pristine · dirty · focused · invalid · saving · saved · conflict</text>
+</g>
+
+<!-- ============================================================ -->
+<!-- 02 KANBAN -->
+<!-- ============================================================ -->
+<g transform="translate(480,130)">
+<rect class="panel" x="0" y="0" width="440" height="470"/>
+<text class="num" x="14" y="22">02</text><text class="label" x="40" y="22">Kanban — staged card flow</text>
+<line class="line" x1="14" y1="32" x2="426" y2="32"/>
+
+<!-- col 1 -->
+<rect class="box" x="14" y="44" width="130" height="360"/>
+<text class="strong" x="22" y="62">Lorem</text><text class="tiny muted" x="100" y="62">4</text>
+<rect class="tile" x="22" y="72" width="114" height="58"/>
+<text class="small" x="28" y="88">Ipsum dolor</text><text class="tiny muted" x="28" y="102">sit amet consectetur</text><text class="tiny" x="28" y="120">◧ 2/5 · ○ 1</text>
+<rect class="tile selected" x="22" y="138" width="114" height="58"/>
+<text class="small" x="28" y="154">Adipiscing</text><text class="tiny muted" x="28" y="168">elit sed do</text><text class="tiny" x="28" y="186">☑☑☐ subitems</text>
+<rect class="tile" x="22" y="204" width="114" height="44"/>
+<text class="small" x="28" y="220">Eiusmod</text><text class="tiny muted" x="28" y="234">tempor</text>
+<rect class="tile" x="22" y="256" width="114" height="44"/>
+<text class="small" x="28" y="272">Incididunt</text><text class="tiny muted" x="28" y="286">ut labore</text>
+<text class="tiny dense" x="22" y="320">scroll ↕ · 2 more below</text>
+
+<!-- col 2 with WIP limit + drag ghost -->
+<rect class="box heavy" x="154" y="44" width="130" height="360"/>
+<text class="strong" x="162" y="62">Dolor</text><text class="tiny" x="220" y="62">5/5</text>
+<text class="tiny dense" x="162" y="74">WIP LIMIT REACHED</text>
+<rect class="tile" x="162" y="82" width="114" height="50"/>
+<text class="small" x="168" y="98">Sit amet</text><text class="tiny muted" x="168" y="112">consectetur</text>
+<rect class="valid" x="162" y="140" width="114" height="16"/>
+<text class="tiny" x="168" y="151">insertion gap</text>
+<rect class="tile" x="162" y="164" width="114" height="50"/>
+<text class="small" x="168" y="180">Magna</text><text class="tiny muted" x="168" y="194">aliqua ut</text>
+<rect class="tile" x="162" y="222" width="114" height="50"/>
+<text class="small" x="168" y="238">Enim ad</text><text class="tiny muted" x="168" y="252">minim</text>
+<rect class="tile invalid" x="162" y="280" width="114" height="50"/>
+<text class="small" x="168" y="296">⊘ Veniam</text><text class="tiny" x="168" y="310">blocked — dependency</text>
+<text class="tiny dense" x="162" y="350">limit blocks drop →</text>
+<text class="tiny dense" x="162" y="362">rejects during drag</text>
+
+<!-- col 3 -->
+<rect class="box" x="294" y="44" width="132" height="360"/>
+<text class="strong" x="302" y="62">Amet</text><text class="tiny muted" x="392" y="62">2</text>
+<rect class="tile" x="302" y="72" width="116" height="50"/>
+<text class="small" x="308" y="88">Quis nostrud</text><text class="tiny muted" x="308" y="102">exercitation</text>
+<rect class="tile" x="302" y="130" width="116" height="50"/>
+<text class="small" x="308" y="146">Ullamco</text><text class="tiny muted" x="308" y="160">laboris nisi</text>
+<text class="tiny muted" x="302" y="200">column empty-state if 0:</text>
+<rect class="box dot" x="302" y="210" width="116" height="40"/>
+<text class="tiny muted" x="312" y="233">drop here</text>
+
+<!-- drag ghost crossing columns -->
+<g class="ghost"><rect class="surface heavy dash" x="120" y="330" width="114" height="50"/>
+<text class="small" x="126" y="346">≡ Adipiscing</text><text class="tiny" x="126" y="360">dragging…</text></g>
+<path class="line dash" d="M177 330 C177 300 190 280 190 260"/>
+
+<rect class="control" x="14" y="414" width="120" height="20"/><text class="small" x="22" y="428">+ Lorem ipsum</text>
+<text class="tiny dense" x="142" y="428">keyboard: ←→ move card · Space lift/drop · ⇧F10 card menu</text>
+<text class="tiny dense" x="14" y="446">states: rest · hover · lifted · over-valid · over-limit · blocked · done</text>
+<text class="tiny dense" x="14" y="462">undo: every move reversible · bulk move confirms</text>
+</g>
+
+<!-- ============================================================ -->
+<!-- 03 CALENDAR WEEK -->
+<!-- ============================================================ -->
+<g transform="translate(940,130)">
+<rect class="panel" x="0" y="0" width="440" height="470"/>
+<text class="num" x="14" y="22">03</text><text class="label" x="40" y="22">Calendar — time grid, not a Gantt</text>
+<line class="line" x1="14" y1="32" x2="426" y2="32"/>
+
+<text class="small" x="40" y="50">◀</text><text class="strong" x="70" y="50">Lorem 08 – Lorem 14</text><text class="small" x="240" y="50">▶</text>
+<text class="small" x="280" y="50">Day · Week · Month</text><rect class="control" x="380" y="38" width="46" height="16"/><text class="tiny" x="388" y="50">Today</text>
+
+<!-- day headers -->
+<text class="tiny" x="66" y="70">Mon 08</text><text class="tiny" x="136" y="70">Tue 09</text><text class="tiny" x="206" y="70">Wed 10</text><text class="tiny" x="276" y="70">Thu 11</text><text class="tiny" x="346" y="70">Fri 12</text>
+<!-- all-day spanning event -->
+<rect class="box heavy" x="60" y="76" width="212" height="16"/>
+<text class="tiny" x="66" y="87">Multi-day span — lorem ipsum dolor</text>
+
+<!-- time grid -->
+<line class="line" x1="60" y1="96" x2="426" y2="96"/>
+<text class="tiny muted" x="24" y="104">08</text><line class="hair" x1="60" y1="100" x2="426" y2="100"/>
+<text class="tiny muted" x="24" y="144">10</text><line class="hair" x1="60" y1="140" x2="426" y2="140"/>
+<text class="tiny muted" x="24" y="184">12</text><line class="hair" x1="60" y1="180" x2="426" y2="180"/>
+<text class="tiny muted" x="24" y="224">14</text><line class="hair" x1="60" y1="220" x2="426" y2="220"/>
+<text class="tiny muted" x="24" y="264">16</text><line class="hair" x1="60" y1="260" x2="426" y2="260"/>
+<text class="tiny muted" x="24" y="304">18</text><line class="hair" x1="60" y1="300" x2="426" y2="300"/>
+<line class="hair" x1="60" y1="96" x2="60" y2="340"/><line class="hair" x1="133" y1="96" x2="133" y2="340"/><line class="hair" x1="206" y1="96" x2="206" y2="340"/><line class="hair" x1="279" y1="96" x2="279" y2="340"/><line class="hair" x1="352" y1="96" x2="352" y2="340"/><line class="hair" x1="426" y1="96" x2="426" y2="340"/>
+
+<!-- events -->
+<rect class="tile" x="64" y="104" width="64" height="52"/>
+<text class="tiny" x="68" y="116">Ipsum</text><text class="tiny muted" x="68" y="128">08–10</text>
+<rect class="tile selected" x="137" y="140" width="64" height="76"/>
+<text class="tiny" x="141" y="152">Dolor sit</text><text class="tiny muted" x="141" y="164">10–13</text><text class="tiny" x="141" y="176">◉ 3 guests</text>
+<!-- overlap pair -->
+<rect class="tile" x="210" y="150" width="40" height="60"/>
+<text class="tiny" x="213" y="162">Amet</text>
+<rect class="tile dash" x="238" y="170" width="40" height="60"/>
+<text class="tiny" x="241" y="182">Elit</text>
+<text class="tiny dense" x="210" y="242">overlap → offset lanes</text>
+<rect class="tile" x="283" y="100" width="64" height="36"/>
+<text class="tiny" x="287" y="112">Sed do</text>
+<rect class="tile invalid" x="356" y="220" width="64" height="52"/>
+<text class="tiny" x="360" y="232">⊘ Conflict</text><text class="tiny" x="360" y="244">double-booked</text>
+<!-- now line -->
+<line class="heavy" x1="60" y1="196" x2="426" y2="196"/>
+<circle class="inverse" cx="60" cy="196" r="4"/>
+<text class="tiny dense" x="330" y="192">now 12:24</text>
+
+<!-- mini month -->
+<rect class="box" x="14" y="352" width="120" height="100"/>
+<text class="tiny" x="22" y="366">Lorem 2026</text>
+<g class="hair"><line x1="14" y1="372" x2="134" y2="372"/></g>
+<text class="tiny muted" x="20" y="384">M T W T F S S</text>
+<text class="tiny" x="20" y="396">1 2 3 4 5 6 7</text>
+<text class="tiny" x="20" y="408">8 9 10 11 12</text>
+<rect class="box selected" x="20" y="400" width="14" height="12"/>
+<text class="tiny" x="20" y="420">… 18 19 20 21</text>
+<text class="tiny dense" x="146" y="370">drag event across days</text>
+<text class="tiny dense" x="146" y="384">resize = duration change</text>
+<text class="tiny dense" x="146" y="398">right-click: duplicate ·</text>
+<text class="tiny dense" x="146" y="410">convert · split · cancel</text>
+<text class="tiny dense" x="146" y="424">keyboard: arrows move</text>
+<text class="tiny dense" x="146" y="436">focus · Enter opens</text>
+<text class="tiny dense" x="14" y="464">states: free · busy · tentative · conflict · selected · dragging · recurring</text>
+</g>
+
+<!-- ============================================================ -->
+<!-- 04 MAP -->
+<!-- ============================================================ -->
+<g transform="translate(1400,130)">
+<rect class="panel" x="0" y="0" width="440" height="470"/>
+<text class="num" x="14" y="22">04</text><text class="label" x="40" y="22">Geospatial — zones, routes, pins</text>
+<line class="line" x1="14" y1="32" x2="426" y2="32"/>
+
+<!-- zones -->
+<path class="box" d="M30 70 L150 50 L210 110 L170 190 L60 180 Z"/>
+<text class="tiny" x="90" y="120">Zone A</text>
+<path class="box selected" d="M220 60 L340 70 L360 160 L280 200 L215 150 Z"/>
+<text class="tiny" x="270" y="130">Zone B</text>
+<path class="box dash" d="M60 200 L180 205 L220 280 L120 320 L40 270 Z"/>
+<text class="tiny" x="110" y="260">Zone C</text>
+<!-- route -->
+<path class="line heavy" d="M70 240 L120 200 L160 160 L230 130 L300 110" marker-end="none"/>
+<path class="line" d="M295 105 L305 110 L297 118"/>
+<text class="tiny dense" x="150" y="150">route · 3 stops · 42 min</text>
+<!-- pins -->
+<circle class="inverse" cx="70" cy="240" r="5"/><text class="tiny" x="58" y="258">P1</text>
+<circle class="inverse" cx="160" cy="160" r="5"/><text class="tiny" x="148" y="150">P2</text>
+<circle class="box" cx="300" cy="110" r="6" fill="none"/><text class="tiny" x="290" y="98">P3</text>
+<!-- radius -->
+<circle class="dash" cx="160" cy="160" r="46" fill="none"/>
+<text class="tiny dense" x="170" y="205">radius filter 2 km</text>
+<!-- layer panel -->
+<rect class="surface" x="300" y="220" width="126" height="120"/>
+<text class="label" x="308" y="236">Layers</text>
+<text class="small" x="308" y="254">☑ Zones</text>
+<text class="small" x="308" y="272">☑ Routes</text>
+<text class="small" x="308" y="290">☑ Pins</text>
+<text class="small" x="308" y="308">☐ Density</text>
+<text class="small" x="308" y="326">☐ History</text>
+<!-- scale + coords -->
+<line class="heavy" x1="30" y1="360" x2="90" y2="360"/><text class="tiny" x="30" y="374">0 — 5 km</text>
+<text class="tiny muted" x="300" y="360">35.7°N 78.6°W</text>
+<!-- selected region detail -->
+<rect class="box" x="14" y="388" width="412" height="52"/>
+<text class="strong" x="22" y="406">Zone B — selected</text>
+<text class="small" x="22" y="422">Lorem: 12 · Ipsum: 4 · Dolor: 96%</text>
+<text class="tiny dense" x="22" y="434">click zone = select · drag pin = reroute · right-click zone = context menu</text>
+<text class="tiny dense" x="14" y="458">states: idle · hovered · selected · editing-geometry · offline-tiles · no-data</text>
+</g>
+
+<!-- ============================================================ -->
+<!-- 05 FLOW DESIGNER -->
+<!-- ============================================================ -->
+<g transform="translate(20,620)">
+<rect class="panel" x="0" y="0" width="440" height="470"/>
+<text class="num" x="14" y="22">05</text><text class="label" x="40" y="22">Flow designer — nodes, edges, rules</text>
+<line class="line" x1="14" y1="32" x2="426" y2="32"/>
+
+<!-- palette -->
+<rect class="box" x="14" y="44" width="70" height="330"/>
+<text class="label" x="20" y="60">Palette</text>
+<circle class="node" cx="49" cy="84" r="14"/>
+<rect class="node" x="27" y="112" width="44" height="24"/>
+<path class="node" d="M49 152 L71 174 L49 196 L27 174 Z"/>
+<circle class="node heavy" cx="49" cy="226" r="14"/><circle class="node" cx="49" cy="226" r="9"/>
+<text class="tiny muted" x="20" y="260">drag onto</text><text class="tiny muted" x="20" y="272">canvas</text>
+<text class="tiny dense" x="20" y="300">keyboard:</text><text class="tiny dense" x="20" y="312">Ctrl+1..4</text><text class="tiny dense" x="20" y="324">inserts node</text>
+
+<!-- canvas -->
+<rect class="box dot" x="94" y="44" width="332" height="330"/>
+<circle class="node" cx="140" cy="90" r="12"/>
+<text class="tiny" x="126" y="72">start</text>
+<path class="edge" d="M152 90 L196 90"/><path class="line" d="M192 85 L200 90 L192 95"/>
+<rect class="node selected" x="200" y="74" width="90" height="32"/>
+<rect class="box" x="198" y="72" width="6" height="6"/><rect class="box" x="284" y="72" width="6" height="6"/><rect class="box" x="198" y="100" width="6" height="6"/><rect class="box" x="284" y="100" width="6" height="6"/>
+<text class="small" x="212" y="94">Lorem</text>
+<path class="edge" d="M290 90 L330 90"/><path class="line" d="M326 85 L334 90 L326 95"/>
+<path class="node" d="M360 66 L396 90 L360 114 L324 90 Z"/>
+<text class="tiny" x="344" y="94">dolor?</text>
+<path class="edge" d="M396 90 L410 90 L410 150 L396 150"/><text class="tiny" x="400" y="124">yes</text>
+<rect class="node" x="330" y="150" width="80" height="30"/>
+<text class="small" x="342" y="169">Ipsum</text>
+<path class="edge" d="M360 114 L360 220"/><text class="tiny" x="366" y="200">no</text>
+<rect class="node dash" x="320" y="220" width="80" height="30"/>
+<text class="small" x="332" y="239">Sit amet</text>
+<path class="edge" d="M370 180 L370 200 L250 200 L250 106"/>
+<text class="tiny dense" x="256" y="196">loop-back edge</text>
+<circle class="node heavy" cx="140" cy="240" r="12"/><circle class="node" cx="140" cy="240" r="8"/>
+<text class="tiny" x="128" y="264">end</text>
+<path class="edge" d="M330 165 L152 232"/>
+<!-- invalid connection -->
+<path class="edge invalid" d="M245 106 L245 140 L160 140 L160 228"/>
+<text class="tiny dense" x="160" y="152">⊘ invalid: cycle to end</text>
+<text class="tiny dense" x="160" y="164">rejected during drag</text>
+
+<!-- minimap -->
+<rect class="surface" x="330" y="300" width="96" height="74"/>
+<text class="tiny" x="336" y="312">minimap</text>
+<rect class="hair" x="340" y="318" width="76" height="48" fill="none" stroke="currentColor"/>
+<rect class="inverse" x="352" y="330" width="10" height="6"/><rect class="inverse" x="380" y="344" width="10" height="6"/>
+
+<text class="tiny dense" x="14" y="392">validation: unreachable node · missing branch label · cycle · unconnected port</text>
+<text class="tiny dense" x="14" y="408">manipulation: drag node · drag edge endpoint · marquee multi-select · snap grid</text>
+<text class="tiny dense" x="14" y="424">undo: full graph history · copy/paste subgraph · version compare</text>
+<text class="tiny dense" x="14" y="446">states: idle · node-selected · edge-selected · connecting · invalid-target · simulating</text>
+<text class="tiny dense" x="14" y="462">keyboard: arrows nudge · Del removes with confirm · Tab cycles ports</text>
+</g>
+
+<!-- ============================================================ -->
+<!-- 06 CONVERSATION -->
+<!-- ============================================================ -->
+<g transform="translate(480,620)">
+<rect class="panel" x="0" y="0" width="440" height="470"/>
+<text class="num" x="14" y="22">06</text><text class="label" x="40" y="22">Conversation — threads, not records</text>
+<line class="line" x1="14" y1="32" x2="426" y2="32"/>
+
+<rect class="control" x="14" y="42" width="200" height="22"/><text class="small" x="22" y="57">⌕ Lorem ipsum…</text>
+<text class="small" x="230" y="57">Participants (4) ▾</text><text class="small" x="360" y="57">⋯</text>
+
+<line class="hair" x1="14" y1="80" x2="426" y2="80"/><text class="tiny muted" x="190" y="76">Lorem 08</text>
+
+<!-- incoming -->
+<circle class="node" cx="30" cy="106" r="10"/>
+<rect class="box" x="48" y="90" width="220" height="46"/>
+<text class="small" x="56" y="106">Lorem ipsum dolor sit amet,</text>
+<text class="small" x="56" y="120">consectetur adipiscing elit.</text>
+<text class="tiny muted" x="48" y="148">09:14</text>
+
+<!-- outgoing -->
+<rect class="inverse" x="180" y="156" width="240" height="46"/>
+<text class="small inverseText" x="190" y="172">Sed do eiusmod tempor</text>
+<text class="small inverseText" x="190" y="186">incididunt ut labore.</text>
+<text class="tiny muted" x="380" y="214">09:16 ✓✓ read</text>
+
+<!-- attachment -->
+<rect class="box" x="48" y="222" width="220" height="52"/>
+<rect class="tile" x="56" y="230" width="34" height="34"/><text class="tiny" x="62" y="249">PDF</text>
+<text class="small" x="98" y="244">Lorem_ipsum.pdf</text>
+<text class="tiny muted" x="98" y="258">1.2 MB · preview · download</text>
+
+<!-- thread indent -->
+<line class="line" x1="60" y1="286" x2="60" y2="352"/>
+<rect class="box dash" x="74" y="286" width="200" height="30"/>
+<text class="small" x="82" y="305">↳ thread · 3 replies</text>
+<rect class="box" x="74" y="322" width="240" height="30"/>
+<text class="small" x="82" y="341">Ut enim ad minim veniam…</text>
+
+<!-- unread divider -->
+<line class="line dash" x1="14" y1="366" x2="426" y2="366"/>
+<text class="tiny" x="180" y="362">— new since 09:20 —</text>
+
+<!-- typing -->
+<text class="small muted" x="48" y="388">● ● ● someone is typing…</text>
+
+<!-- composer -->
+<rect class="control heavy" x="14" y="400" width="412" height="40"/>
+<text class="small muted" x="24" y="424">Lorem ipsum dolor…</text>
+<text class="small" x="330" y="424">📎</text><text class="small" x="356" y="424">@</text>
+<rect class="surface" x="384" y="408" width="34" height="24"/><text class="small" x="392" y="424">➤</text>
+
+<text class="tiny dense" x="14" y="456">states: sent · delivered · read · failed-retry · edited · deleted-for-all</text>
+<text class="tiny dense" x="14" y="468">right-click message: reply · react · forward · pin · copy · delete (undo 5s)</text>
+</g>
+
+<!-- ============================================================ -->
+<!-- 07 DOCUMENT EDITOR -->
+<!-- ============================================================ -->
+<g transform="translate(940,620)">
+<rect class="panel" x="0" y="0" width="440" height="470"/>
+<text class="num" x="14" y="22">07</text><text class="label" x="40" y="22">Document — annotated long-form</text>
+<line class="line" x1="14" y1="32" x2="426" y2="32"/>
+
+<!-- toolbar -->
+<rect class="control" x="14" y="40" width="22" height="20"/><text class="small" x="20" y="54">B</text>
+<rect class="control" x="40" y="40" width="22" height="20"/><text class="small" x="46" y="54">I</text>
+<rect class="control" x="66" y="40" width="22" height="20"/><text class="small" x="72" y="54">U</text>
+<line class="line" x1="96" y1="40" x2="96" y2="60"/>
+<rect class="control" x="102" y="40" width="30" height="20"/><text class="tiny" x="106" y="54">H1▾</text>
+<rect class="control" x="136" y="40" width="30" height="20"/><text class="tiny" x="140" y="54">≡▾</text>
+<line class="line" x1="174" y1="40" x2="174" y2="60"/>
+<rect class="control" x="180" y="40" width="34" height="20"/><text class="tiny" x="184" y="54">💬 3</text>
+<rect class="control" x="218" y="40" width="34" height="20"/><text class="tiny" x="222" y="54">↶↷</text>
+<text class="tiny muted" x="300" y="54">saved 09:22 · v14</text>
+
+<!-- page -->
+<rect class="surface heavy" x="40" y="72" width="260" height="340"/>
+<text class="heading" x="56" y="98">Lorem Ipsum Dolor</text>
+<line class="hair" x1="56" y1="112" x2="284" y2="112"/><line class="hair" x1="56" y1="124" x2="284" y2="124"/><line class="hair" x1="56" y1="136" x2="250" y2="136"/>
+<!-- selection band -->
+<rect class="box selected" x="52" y="146" width="236" height="26"/>
+<line class="hair" x1="56" y1="158" x2="284" y2="158"/><line class="hair" x1="56" y1="170" x2="270" y2="170"/>
+<text class="tiny dense" x="56" y="144">selection → floating toolbar</text>
+<line class="hair" x1="56" y1="186" x2="284" y2="186"/><line class="hair" x1="56" y1="198" x2="284" y2="198"/><line class="hair" x1="56" y1="210" x2="230" y2="210"/>
+<!-- annotated paragraph -->
+<line class="hair" x1="56" y1="234" x2="284" y2="234"/><line class="hair" x1="56" y1="246" x2="284" y2="246"/>
+<line class="heavy" x1="56" y1="252" x2="180" y2="252"/>
+<line class="hair" x1="56" y1="264" x2="284" y2="264"/><line class="hair" x1="56" y1="276" x2="200" y2="276"/>
+<line class="hair" x1="56" y1="300" x2="284" y2="300"/><line class="hair" x1="56" y1="312" x2="284" y2="312"/><line class="hair" x1="56" y1="324" x2="240" y2="324"/>
+<text class="tiny muted" x="56" y="400">Page 2 of 7</text>
+
+<!-- margin pins + comments -->
+<circle class="inverse" cx="306" cy="252" r="5"/>
+<line class="line" x1="311" y1="252" x2="330" y2="240"/>
+<rect class="box" x="330" y="212" width="96" height="56"/>
+<text class="tiny" x="336" y="226">Consectetur?</text>
+<text class="tiny muted" x="336" y="240">adipiscing elit sed</text>
+<text class="tiny" x="336" y="258">Reply · Resolve</text>
+<circle class="inverse" cx="306" cy="160" r="5"/>
+<line class="line" x1="311" y1="160" x2="330" y2="150"/>
+<rect class="box dash" x="330" y="126" width="96" height="48"/>
+<text class="tiny" x="336" y="140">Suggestion:</text>
+<text class="tiny muted" x="336" y="152">replace ¶3</text>
+<text class="tiny" x="336" y="166">Accept · Reject</text>
+
+<text class="tiny dense" x="14" y="432">states: read · edit · suggest-mode · comment-anchored · selection · offline</text>
+<text class="tiny dense" x="14" y="448">manipulation: drag block to reorder · drag comment anchor · split/merge ¶</text>
+<text class="tiny dense" x="14" y="464">undo: per-collaborator history · version scrubber · restore snapshot</text>
+</g>
+
+<!-- ============================================================ -->
+<!-- 08 MEDIA GALLERY -->
+<!-- ============================================================ -->
+<g transform="translate(1400,620)">
+<rect class="panel" x="0" y="0" width="440" height="470"/>
+<text class="num" x="14" y="22">08</text><text class="label" x="40" y="22">Media gallery — asset grid</text>
+<line class="line" x1="14" y1="32" x2="426" y2="32"/>
+
+<rect class="control" x="14" y="42" width="90" height="20"/><text class="tiny" x="22" y="56">Type ▾</text>
+<rect class="control" x="110" y="42" width="90" height="20"/><text class="tiny" x="118" y="56">Date ▾</text>
+<rect class="inverse" x="206" y="42" width="96" height="20"/><text class="tiny inverseText" x="214" y="56">tag: lorem ✕</text>
+<text class="tiny muted" x="330" y="56">128 assets</text>
+
+<!-- grid 4x3 -->
+<g>
+<rect class="tile" x="14" y="72" width="96" height="80"/><circle class="node" cx="62" cy="106" r="20"/><text class="tiny" x="20" y="144">lorem-01</text>
+<rect class="tile selected" x="118" y="72" width="96" height="80"/><path class="node" d="M146 126 L166 92 L196 126 Z"/><text class="tiny" x="124" y="144">ipsum-02</text><text class="tiny" x="196" y="84">☑</text>
+<rect class="tile" x="222" y="72" width="96" height="80"/><path class="line" d="M230 120 Q246 96 262 120 T294 120"/><text class="tiny" x="228" y="144">dolor-03</text>
+<rect class="tile selected" x="326" y="72" width="96" height="80"/><rect class="node" x="352" y="92" width="44" height="30"/><text class="tiny" x="332" y="144">sit-04</text><text class="tiny" x="404" y="84">☑</text>
+
+<rect class="tile" x="14" y="160" width="96" height="80"/><circle class="node" cx="50" cy="196" r="14"/><circle class="node" cx="76" cy="196" r="14"/><text class="tiny" x="20" y="232">amet-05</text>
+<!-- hover state tile -->
+<rect class="tile heavy" x="118" y="160" width="96" height="80"/><path class="node" d="M130 220 L166 176 L202 220 Z"/>
+<rect class="inverse" x="118" y="212" width="96" height="28"/>
+<text class="tiny inverseText" x="124" y="230">Open · ⌄ · ⋯</text>
+<text class="tiny dense" x="124" y="156">hover → action bar</text>
+<rect class="tile" x="222" y="160" width="96" height="80"/><path class="line" d="M230 200 L250 180 L270 205 L290 185"/><text class="tiny" x="228" y="232">elit-07</text>
+<rect class="tile invalid" x="326" y="160" width="96" height="80"/><text class="tiny" x="346" y="196">⊘ corrupt</text><text class="tiny muted" x="336" y="210">retry upload</text><text class="tiny" x="332" y="232">sed-08</text>
+
+<rect class="tile" x="14" y="248" width="96" height="80"/><rect class="node" x="36" y="270" width="52" height="36" transform="rotate(8 62 288)"/><text class="tiny" x="20" y="320">eius-09</text>
+<rect class="tile ghost" x="118" y="248" width="96" height="80"/><text class="tiny" x="134" y="290">≡ dragging…</text>
+<rect class="valid" x="222" y="248" width="96" height="80"/><text class="tiny" x="238" y="280">drop into</text><text class="tiny" x="238" y="294">album</text>
+<rect class="tile dash" x="326" y="248" width="96" height="80"/><text class="small" x="356" y="284">+</text><text class="tiny" x="340" y="300">upload</text><text class="tiny muted" x="332" y="314">or drop files</text>
+</g>
+
+<rect class="inverse" x="14" y="340" width="412" height="26"/>
+<text class="small inverseText" x="22" y="357">2 selected — Move · Tag · Download · Delete</text>
+
+<text class="tiny dense" x="14" y="384">manipulation: drag to album · drag to reorder · lasso multi-select</text>
+<text class="tiny dense" x="14" y="400">disclosure: hover = metadata strip · long-press = quick preview</text>
+<text class="tiny dense" x="14" y="424">states: uploading · processing · ready · corrupt · selected · hidden</text>
+<text class="tiny dense" x="14" y="440">keyboard: arrows grid-walk · Space select · Enter open · Del → confirm</text>
+<text class="tiny dense" x="14" y="462">undo: delete = trash with restore · move reversible</text>
+</g>
+
+<!-- ============================================================ -->
+<!-- 09 TIMELINE FEED -->
+<!-- ============================================================ -->
+<g transform="translate(20,1110)">
+<rect class="panel" x="0" y="0" width="440" height="470"/>
+<text class="num" x="14" y="22">09</text><text class="label" x="40" y="22">Timeline feed — vertical event spine</text>
+<line class="line" x1="14" y1="32" x2="426" y2="32"/>
+
+<rect class="control" x="14" y="42" width="110" height="20"/><text class="tiny" x="22" y="56">All types ▾</text>
+<rect class="control" x="130" y="42" width="110" height="20"/><text class="tiny" x="138" y="56">All actors ▾</text>
+<text class="tiny muted" x="330" y="56">grouped by day</text>
+
+<!-- spine -->
+<line class="heavy" x1="40" y1="76" x2="40" y2="420"/>
+
+<text class="strong" x="56" y="80">Lorem 14</text>
+<circle class="inverse" cx="40" cy="100" r="6"/>
+<rect class="box" x="56" y="88" width="270" height="40"/>
+<text class="small" x="64" y="104">Ipsum dolor sit amet</text>
+<text class="tiny muted" x="64" y="118">consectetur · 14:32</text>
+<circle class="node" cx="40" cy="150" r="6" fill="none"/>
+<rect class="box selected" x="56" y="138" width="270" height="64"/>
+<text class="small" x="64" y="154">Adipiscing elit — expanded</text>
+<text class="tiny" x="64" y="168">sed do eiusmod tempor incididunt</text>
+<text class="tiny" x="64" y="180">ut labore et dolore magna aliqua.</text>
+<text class="tiny" x="64" y="194">View · Revert · Copy link</text>
+<circle class="node" cx="40" cy="224" r="6" fill="none"/>
+<rect class="box dash" x="56" y="212" width="270" height="28"/>
+<text class="small" x="64" y="230">▸ 4 similar events collapsed</text>
+
+<text class="strong" x="56" y="272">Lorem 13</text>
+<circle class="inverse" cx="40" cy="292" r="6"/>
+<rect class="box" x="56" y="280" width="270" height="40"/>
+<text class="small" x="64" y="296">Duis aute irure dolor</text>
+<text class="tiny muted" x="64" y="310">in reprehenderit · 09:05</text>
+<circle class="node" cx="40" cy="342" r="6" fill="none"/>
+<rect class="box" x="56" y="330" width="270" height="40"/>
+<text class="small" x="64" y="346">Excepteur sint occaecat</text>
+<text class="tiny muted" x="64" y="360">cupidatat · 08:41</text>
+
+<!-- filter rail -->
+<rect class="box" x="340" y="76" width="86" height="200"/>
+<text class="label" x="348" y="92">Filter</text>
+<text class="tiny" x="348" y="110">☑ Creates</text>
+<text class="tiny" x="348" y="126">☑ Edits</text>
+<text class="tiny" x="348" y="142">☐ Deletes</text>
+<text class="tiny" x="348" y="158">☑ Comments</text>
+<text class="tiny" x="348" y="174">☐ System</text>
+<text class="tiny" x="348" y="196">Actor:</text>
+<text class="tiny" x="348" y="212">All ▾</text>
+<text class="tiny" x="348" y="234">Range:</text>
+<text class="tiny" x="348" y="250">7 days ▾</text>
+
+<text class="tiny dense" x="14" y="436">states: live · paused-stream · new-above pill · filtered · empty-range</text>
+<text class="tiny dense" x="14" y="452">disclosure: click expands inline · hover = actor card · shift-click = diff</text>
+<text class="tiny dense" x="14" y="468">reversibility: every mutation event exposes Revert where permitted</text>
+</g>
+
+<!-- ============================================================ -->
+<!-- 10 WIZARD -->
+<!-- ============================================================ -->
+<g transform="translate(480,1110)">
+<rect class="panel" x="0" y="0" width="440" height="470"/>
+<text class="num" x="14" y="22">10</text><text class="label" x="40" y="22">Wizard — sequenced commitment</text>
+<line class="line" x1="14" y1="32" x2="426" y2="32"/>
+
+<!-- stepper -->
+<line class="line" x1="50" y1="70" x2="390" y2="70"/>
+<circle class="inverse" cx="50" cy="70" r="12"/><text class="tiny inverseText" x="46" y="74">✓</text>
+<circle class="inverse" cx="135" cy="70" r="12"/><text class="tiny inverseText" x="131" y="74">✓</text>
+<circle class="node selected" cx="220" cy="70" r="13" fill="none"/><circle class="inverse" cx="220" cy="70" r="5"/>
+<circle class="node dash" cx="305" cy="70" r="12" fill="none"/>
+<circle class="node disabled" cx="390" cy="70" r="12" fill="none"/>
+<text class="tiny" x="38" y="94">Lorem</text><text class="tiny" x="122" y="94">Ipsum</text><text class="tiny" x="208" y="94">Dolor</text><text class="tiny" x="296" y="94">Sit</text><text class="tiny muted" x="376" y="94">Amet</text>
+
+<!-- error summary -->
+<rect class="box invalid" x="14" y="106" width="412" height="34"/>
+<text class="small" x="22" y="120">! 2 fields need attention before continuing</text>
+<text class="tiny" x="22" y="133">Dolor sit · Consectetur — jump to field ↓</text>
+
+<!-- step content -->
+<text class="strong" x="14" y="162">Step 3 — Dolor sit amet</text>
+<text class="tiny" x="14" y="184">Lorem ipsum *</text>
+<rect class="control" x="120" y="172" width="200" height="20"/><text class="small" x="126" y="186">Consectetur</text>
+<text class="tiny" x="14" y="210">Adipiscing *</text>
+<rect class="control invalid" x="120" y="198" width="200" height="20"/>
+<text class="tiny dense" x="326" y="212">! invalid format</text>
+<text class="tiny" x="14" y="236">Elit sed</text>
+<rect class="control" x="120" y="224" width="200" height="20"/><text class="small" x="126" y="238">Do eiusmod ▾</text>
+<text class="small" x="14" y="262">☑ Tempor incididunt ut labore</text>
+<text class="small" x="14" y="282">☐ Et dolore magna aliqua</text>
+
+<!-- side help -->
+<rect class="box dash" x="14" y="296" width="412" height="56"/>
+<text class="tiny" x="22" y="312">CONTEXTUAL HELP — why this step exists</text>
+<text class="tiny muted" x="22" y="326">Ut enim ad minim veniam, quis nostrud exercitation</text>
+<text class="tiny muted" x="22" y="338">ullamco laboris nisi ut aliquip ex ea commodo.</text>
+
+<!-- nav -->
+<rect class="control" x="14" y="366" width="80" height="24"/><text class="small" x="34" y="382">← Back</text>
+<rect class="control" x="102" y="366" width="110" height="24"/><text class="small" x="112" y="382">Save draft</text>
+<rect class="inverse" x="326" y="366" width="100" height="24"/><text class="small inverseText" x="346" y="382">Next →</text>
+<text class="tiny dense" x="14" y="408">progress persisted · exit mid-wizard = resume later</text>
+
+<text class="tiny dense" x="14" y="428">states: step-done · current · reachable · locked · invalid · submitting</text>
+<text class="tiny dense" x="14" y="444">branching: step 2 answer changes steps 4–5 — declared, not hidden</text>
+<text class="tiny dense" x="14" y="462">reversibility: back never loses data · final step = summary + confirm</text>
+</g>
+
+<!-- ============================================================ -->
+<!-- 11 INBOX TRIAGE -->
+<!-- ============================================================ -->
+<g transform="translate(940,1110)">
+<rect class="panel" x="0" y="0" width="440" height="470"/>
+<text class="num" x="14" y="22">11</text><text class="label" x="40" y="22">Inbox triage — queue + reading pane</text>
+<line class="line" x1="14" y1="32" x2="426" y2="32"/>
+
+<!-- bulk bar -->
+<rect class="inverse" x="14" y="40" width="412" height="22"/>
+<text class="tiny inverseText" x="22" y="55">☑ 3 selected — Assign · Snooze · Close · Tag</text>
+
+<!-- queue -->
+<rect class="box" x="14" y="70" width="160" height="330"/>
+<rect class="inverse" x="14" y="70" width="4" height="44"/>
+<text class="small" x="24" y="86">● Lorem ipsum</text><text class="tiny muted" x="24" y="100">dolor sit amet…</text><text class="tiny" x="24" y="112">P1 · 12m</text>
+<line class="hair" x1="14" y1="118" x2="174" y2="118"/>
+<rect class="inverse" x="14" y="118" width="4" height="44"/>
+<text class="small" x="24" y="134">● Consectetur</text><text class="tiny muted" x="24" y="148">adipiscing elit…</text><text class="tiny" x="24" y="160">P2 · 1h</text>
+<line class="hair" x1="14" y1="166" x2="174" y2="166"/>
+<rect class="box selected" x="14" y="166" width="160" height="48"/>
+<text class="small" x="24" y="182">Sed do eiusmod</text><text class="tiny muted" x="24" y="196">tempor incididunt…</text><text class="tiny" x="24" y="208">P2 · 3h</text>
+<line class="hair" x1="14" y1="218" x2="174" y2="218"/>
+<text class="small muted" x="24" y="234">Ut enim ad</text><text class="tiny muted" x="24" y="248">minim veniam…</text>
+<line class="hair" x1="14" y1="258" x2="174" y2="258"/>
+<text class="small muted" x="24" y="274">Quis nostrud</text><text class="tiny muted" x="24" y="288">exercitation…</text>
+<line class="hair" x1="14" y1="298" x2="174" y2="298"/>
+<rect class="box dot" x="14" y="298" width="160" height="40"/>
+<text class="tiny muted" x="24" y="322">∅ no more in filter</text>
+<text class="tiny dense" x="20" y="360">j/k = next/prev</text>
+<text class="tiny dense" x="20" y="374">x = toggle select</text>
+<text class="tiny dense" x="20" y="388">e = close · s = snooze</text>
+
+<!-- reading pane -->
+<rect class="box" x="186" y="70" width="240" height="330"/>
+<text class="strong" x="196" y="90">Sed do eiusmod tempor</text>
+<text class="tiny muted" x="196" y="106">from: Lorem Ipsum · 3h ago · P2</text>
+<line class="hair" x1="196" y1="114" x2="416" y2="114"/>
+<text class="small" x="196" y="134">Incididunt ut labore et dolore</text>
+<text class="small" x="196" y="150">magna aliqua. Ut enim ad minim</text>
+<text class="small" x="196" y="166">veniam, quis nostrud exercitation</text>
+<text class="small" x="196" y="182">ullamco laboris nisi ut aliquip.</text>
+<rect class="tile" x="196" y="194" width="120" height="24"/><text class="tiny" x="204" y="210">📎 duis-aute.pdf</text>
+<!-- snooze menu open -->
+<rect class="surface heavy" x="240" y="230" width="150" height="92"/>
+<text class="label" x="248" y="246">Snooze until</text>
+<text class="small" x="248" y="264">Later today</text>
+<rect class="box" x="244" y="270" width="138" height="20"/><text class="small" x="248" y="284">Tomorrow 08:00</text>
+<text class="small" x="248" y="306">Next week</text>
+<text class="small" x="248" y="320">Pick date…</text>
+<!-- action row -->
+<rect class="control" x="196" y="336" width="56" height="22"/><text class="tiny" x="206" y="351">Reply</text>
+<rect class="control" x="258" y="336" width="56" height="22"/><text class="tiny" x="266" y="351">Assign</text>
+<rect class="control" x="320" y="336" width="50" height="22"/><text class="tiny" x="330" y="351">Close</text>
+<rect class="control" x="376" y="336" width="40" height="22"/><text class="tiny" x="388" y="351">⋯</text>
+<text class="tiny dense" x="196" y="382">right-click item = same menu</text>
+<text class="tiny dense" x="196" y="394">as bulk bar, state-valid</text>
+
+<text class="tiny dense" x="14" y="420">states: unread · read · selected · snoozed · assigned · closed · SLA-breach</text>
+<text class="tiny dense" x="14" y="436">disclosure: hover queue item = peek preview without losing place</text>
+<text class="tiny dense" x="14" y="452">undo: close/snooze reversible from toast · bulk = preview count first</text>
+<text class="tiny dense" x="14" y="468">density: queue rows compact · reading pane unaffected — per-region rule</text>
+</g>
+
+<!-- ============================================================ -->
+<!-- 12 FLOOR PLAN -->
+<!-- ============================================================ -->
+<g transform="translate(1400,1110)">
+<rect class="panel" x="0" y="0" width="440" height="470"/>
+<text class="num" x="14" y="22">12</text><text class="label" x="40" y="22">Floor plan — spatial allocation</text>
+<line class="line" x1="14" y1="32" x2="426" y2="32"/>
+
+<!-- building outline -->
+<path class="panel heavy" d="M30 60 L300 60 L300 140 L410 140 L410 380 L30 380 Z"/>
+<!-- partitions -->
+<line class="line" x1="150" y1="60" x2="150" y2="200"/>
+<line class="line" x1="30" y1="200" x2="150" y2="200"/>
+<line class="line" x1="150" y1="200" x2="300" y2="200"/>
+<line class="line" x1="300" y1="200" x2="410" y2="200"/>
+<line class="line" x1="230" y1="200" x2="230" y2="380"/>
+<!-- door gaps with arcs -->
+<path class="line" d="M150 120 A20 20 0 0 1 170 140" />
+<path class="line" d="M230 300 A20 20 0 0 0 250 280" />
+<text class="tiny" x="60" y="120">Lorem</text>
+<text class="tiny" x="180" y="120">Ipsum</text>
+<text class="tiny" x="60" y="290">Dolor</text>
+<text class="tiny" x="250" y="290">Sit amet</text>
+<text class="tiny" x="320" y="240">Elit</text>
+<!-- selected room with handles -->
+<path class="selected" d="M150 60 L300 60 L300 140 L230 140 L230 200 L150 200 Z" fill="none"/>
+<rect class="box" x="146" y="56" width="8" height="8"/><rect class="box" x="296" y="56" width="8" height="8"/><rect class="box" x="146" y="196" width="8" height="8"/><rect class="box" x="226" y="196" width="8" height="8"/>
+<text class="tiny dense" x="160" y="80">selected · drag handles = reshape</text>
+<!-- capacity dots -->
+<g>
+<circle class="inverse" cx="60" cy="330" r="3"/><circle class="inverse" cx="74" cy="330" r="3"/><circle class="inverse" cx="88" cy="330" r="3"/><circle class="inverse" cx="102" cy="330" r="3"/>
+<circle class="inverse" cx="60" cy="344" r="3"/><circle class="inverse" cx="74" cy="344" r="3"/><circle class="node" cx="88" cy="344" r="3" fill="none"/><circle class="node" cx="102" cy="344" r="3" fill="none"/>
+<text class="tiny" x="120" y="340">Dolor: 6/8 occupied</text>
+</g>
+<!-- legend -->
+<rect class="box" x="320" y="300" width="106" height="76"/>
+<text class="label" x="328" y="314">Legend</text>
+<text class="tiny" x="328" y="330">● occupied</text>
+<text class="tiny" x="328" y="344">○ free</text>
+<text class="tiny" x="328" y="358">⊘ blocked</text>
+<text class="tiny" x="328" y="371">— wall / door</text>
+
+<text class="tiny dense" x="14" y="400">manipulation: drag unit between rooms · reshape boundary · split room</text>
+<text class="tiny dense" x="14" y="416">disclosure: hover room = occupancy + constraints tooltip</text>
+<text class="tiny dense" x="14" y="438">states: free · occupied · over-capacity · blocked · selected · editing</text>
+<text class="tiny dense" x="14" y="454">invalid drop: over-capacity room rejects during drag with reason</text>
+<text class="tiny dense" x="14" y="468">undo: allocation history per room · bulk reassign = preview first</text>
+</g>
+
+<!-- ============================================================ -->
+<!-- 13 FACETED SEARCH -->
+<!-- ============================================================ -->
+<g transform="translate(20,1600)">
+<rect class="panel" x="0" y="0" width="440" height="470"/>
+<text class="num" x="14" y="22">13</text><text class="label" x="40" y="22">Faceted search — find, not browse</text>
+<line class="line" x1="14" y1="32" x2="426" y2="32"/>
+
+<rect class="control heavy" x="14" y="42" width="300" height="26"/><text class="small" x="24" y="59">lorem ipsum dolor</text>
+<rect class="inverse" x="320" y="42" width="60" height="26"/><text class="small inverseText" x="336" y="59">Search</text>
+<text class="tiny muted" x="14" y="84">2,431 results · 0.4s</text>
+<rect class="inverse" x="120" y="74" width="90" height="16"/><text class="tiny inverseText" x="126" y="85">type: lorem ✕</text>
+<rect class="inverse" x="216" y="74" width="90" height="16"/><text class="tiny inverseText" x="222" y="85">year: 2026 ✕</text>
+
+<!-- facets -->
+<rect class="box" x="14" y="100" width="120" height="300"/>
+<text class="label" x="22" y="116">Type</text>
+<text class="tiny" x="22" y="134">☑ Lorem (812)</text>
+<text class="tiny" x="22" y="150">☐ Ipsum (640)</text>
+<text class="tiny" x="22" y="166">☐ Dolor (422)</text>
+<text class="label" x="22" y="192">Status</text>
+<text class="tiny" x="22" y="210">☑ Amet (300)</text>
+<text class="tiny" x="22" y="226">☐ Elit (255)</text>
+<text class="label" x="22" y="252">Range</text>
+<rect class="control" x="22" y="260" width="44" height="16"/><text class="tiny" x="26" y="271">from</text>
+<rect class="control" x="72" y="260" width="44" height="16"/><text class="tiny" x="76" y="271">to</text>
+<text class="label" x="22" y="296">Owner</text>
+<rect class="control" x="22" y="304" width="96" height="18"/><text class="tiny" x="26" y="316">⌕ filter…</text>
+<text class="tiny" x="22" y="340">☑ Sed (98)</text>
+<text class="tiny" x="22" y="356">☐ Eiusmod (87)</text>
+<text class="tiny dense" x="22" y="384">facet counts update</text>
+<text class="tiny dense" x="22" y="396">live per selection</text>
+
+<!-- results -->
+<text class="tiny muted" x="146" y="112">Sort: Relevance ▾</text>
+<rect class="box selected" x="146" y="120" width="280" height="56"/>
+<text class="small" x="154" y="136">Lorem <tspan class="strong">ipsum dolor</tspan> sit amet</text>
+<text class="tiny muted" x="154" y="150">…consectetur adipiscing elit, sed do eiusmod…</text>
+<text class="tiny" x="154" y="166">Amet · 2026 · Sed — Open · ⌄</text>
+<rect class="box" x="146" y="184" width="280" height="56"/>
+<text class="small" x="154" y="200">Tempor <tspan class="strong">ipsum</tspan> incididunt</text>
+<text class="tiny muted" x="154" y="214">…ut labore et dolore magna aliqua…</text>
+<text class="tiny" x="154" y="230">Elit · 2025 · Eiusmod</text>
+<rect class="box" x="146" y="248" width="280" height="56"/>
+<text class="small" x="154" y="264">Duis <tspan class="strong">dolor</tspan> aute irure</text>
+<text class="tiny muted" x="154" y="278">…in reprehenderit in voluptate velit…</text>
+<text class="tiny" x="154" y="294">Amet · 2026 · Sed</text>
+<rect class="box dot" x="146" y="312" width="280" height="40"/>
+<text class="tiny muted" x="154" y="330">∅ no results in this facet combination —</text>
+<text class="tiny" x="154" y="344">remove “year: 2026”? (one-click fix)</text>
+
+<text class="tiny" x="146" y="384">← 1 2 3 … 41 →</text>
+<text class="tiny dense" x="14" y="420">states: typing-suggest · searching · results · zero-results · error</text>
+<text class="tiny dense" x="14" y="436">keyboard: / focuses · ↑↓ walks suggestions · Enter commits</text>
+<text class="tiny dense" x="14" y="452">disclosure: hover result = side peek · no navigation needed</text>
+<text class="tiny dense" x="14" y="468">every filter removable in one click · URL encodes full state</text>
+</g>
+
+<!-- ============================================================ -->
+<!-- 14 COMPARISON -->
+<!-- ============================================================ -->
+<g transform="translate(480,1600)">
+<rect class="panel" x="0" y="0" width="440" height="470"/>
+<text class="num" x="14" y="22">14</text><text class="label" x="40" y="22">Comparison — two versions, one truth</text>
+<line class="line" x1="14" y1="32" x2="426" y2="32"/>
+
+<text class="strong" x="14" y="52">Lorem v12</text><text class="strong" x="240" y="52">Lorem v14</text>
+<rect class="inverse" x="150" y="40" width="140" height="18"/><text class="tiny inverseText" x="160" y="52">4 differences · 2 conflicts</text>
+
+<!-- panes -->
+<rect class="box" x="14" y="64" width="200" height="300"/>
+<rect class="box" x="226" y="64" width="200" height="300"/>
+<!-- unchanged -->
+<line class="hair" x1="22" y1="84" x2="200" y2="84"/><line class="hair" x1="234" y1="84" x2="412" y2="84"/>
+<!-- changed -->
+<rect class="box heavy" x="14" y="92" width="200" height="20"/>
+<line class="hair" x1="22" y1="104" x2="160" y2="104"/>
+<rect class="box heavy" x="226" y="92" width="200" height="20"/>
+<line class="hair" x1="234" y1="104" x2="330" y2="104"/>
+<text class="tiny dense" x="160" y="90">changed</text>
+<!-- removed (left only) -->
+<rect class="box dash" x="14" y="118" width="200" height="18"/>
+<line class="hair" x1="22" y1="128" x2="150" y2="128"/>
+<text class="tiny dense" x="168" y="131">removed</text>
+<!-- added (right only) -->
+<rect class="box" x="226" y="140" width="200" height="18"/>
+<line class="hair" x1="234" y1="151" x2="380" y2="151"/>
+<text class="tiny dense" x="330" y="136">added</text>
+<line class="hair" x1="22" y1="176" x2="200" y2="176"/><line class="hair" x1="234" y1="176" x2="412" y2="176"/>
+<!-- conflict -->
+<rect class="box invalid" x="14" y="186" width="200" height="24"/>
+<rect class="box invalid" x="226" y="186" width="200" height="24"/>
+<text class="tiny" x="22" y="201">! both edited</text>
+<text class="tiny" x="234" y="201">! both edited</text>
+<line class="hair" x1="22" y1="230" x2="200" y2="230"/><line class="hair" x1="234" y1="230" x2="412" y2="230"/>
+<line class="hair" x1="22" y1="250" x2="180" y2="250"/><line class="hair" x1="234" y1="250" x2="400" y2="250"/>
+<line class="hair" x1="22" y1="270" x2="200" y2="270"/><line class="hair" x1="234" y1="270" x2="412" y2="270"/>
+<line class="hair" x1="22" y1="290" x2="150" y2="290"/><line class="hair" x1="234" y1="290" x2="380" y2="290"/>
+<line class="hair" x1="22" y1="310" x2="200" y2="310"/><line class="hair" x1="234" y1="310" x2="412" y2="310"/>
+<line class="hair" x1="22" y1="330" x2="170" y2="330"/><line class="hair" x1="234" y1="330" x2="390" y2="330"/>
+
+<!-- merge arrows -->
+<path class="line heavy" d="M214 102 L226 102"/><path class="line heavy" d="M226 127 L214 127"/>
+<text class="tiny dense" x="208" y="90">→ keep right</text>
+<text class="tiny dense" x="208" y="146">← keep left</text>
+<!-- sync scroll -->
+<rect class="box" x="216" y="180" width="8" height="160"/>
+<rect class="inverse" x="216" y="200" width="8" height="40"/>
+
+<!-- conflict resolution bar -->
+<rect class="surface heavy" x="14" y="372" width="412" height="40"/>
+<text class="small" x="22" y="388">Conflict 1 of 2:</text>
+<rect class="control" x="120" y="378" width="90" height="22"/><text class="tiny" x="130" y="393">Keep v12</text>
+<rect class="control" x="216" y="378" width="90" height="22"/><text class="tiny" x="226" y="393">Keep v14</text>
+<rect class="control" x="312" y="378" width="104" height="22"/><text class="tiny" x="322" y="393">Edit merged…</text>
+
+<text class="tiny dense" x="14" y="430">states: identical · changed · added · removed · conflict · resolved</text>
+<text class="tiny dense" x="14" y="446">navigation: n/p jumps between diffs · sync-scroll toggleable</text>
+<text class="tiny dense" x="14" y="462">reversibility: merge is a draft until committed · full audit trail</text>
+</g>
+
+<!-- ============================================================ -->
+<!-- 15 APPROVAL CHAIN -->
+<!-- ============================================================ -->
+<g transform="translate(940,1600)">
+<rect class="panel" x="0" y="0" width="440" height="470"/>
+<text class="num" x="14" y="22">15</text><text class="label" x="40" y="22">Approval chain — routed decisions</text>
+<line class="line" x1="14" y1="32" x2="426" y2="32"/>
+
+<text class="small" x="14" y="52">Request: Lorem ipsum dolor · submitted Lorem 08 · policy: P-7</text>
+
+<!-- chain -->
+<line class="line" x1="60" y1="110" x2="380" y2="110"/>
+<circle class="inverse" cx="60" cy="110" r="16"/><text class="tiny inverseText" x="55" y="114">✓</text>
+<circle class="inverse" cx="140" cy="110" r="16"/><text class="tiny inverseText" x="135" y="114">✓</text>
+<circle class="node selected" cx="220" cy="110" r="17" fill="none"/><text class="tiny" x="212" y="114">…</text>
+<circle class="node dash" cx="300" cy="110" r="16" fill="none"/>
+<circle class="node disabled" cx="380" cy="110" r="16" fill="none"/>
+<text class="tiny" x="42" y="140">Lorem</text><text class="tiny muted" x="42" y="152">approved</text>
+<text class="tiny" x="122" y="140">Ipsum</text><text class="tiny muted" x="122" y="152">approved</text>
+<text class="tiny" x="204" y="140">Dolor</text><text class="tiny" x="204" y="152">deciding…</text>
+<text class="tiny muted" x="286" y="140">Sit</text><text class="tiny muted" x="282" y="152">waiting</text>
+<text class="tiny muted" x="364" y="140">Amet</text><text class="tiny muted" x="356" y="152">waiting</text>
+<text class="tiny dense" x="220" y="92">current · 18h left of SLA</text>
+
+<!-- delegation detour -->
+<path class="line dash" d="M140 126 C140 170 200 180 250 170"/>
+<circle class="node" cx="262" cy="168" r="12" fill="none"/>
+<text class="tiny" x="282" y="172">delegated: Elit</text>
+<text class="tiny dense" x="140" y="192">delegation path is explicit, not hidden</text>
+
+<!-- rejected branch -->
+<path class="line invalid" d="M60 126 L60 200"/>
+<rect class="box invalid" x="30" y="200" width="120" height="34"/>
+<text class="tiny" x="38" y="214">✕ rejected branch</text>
+<text class="tiny" x="38" y="227">returns to submitter</text>
+<path class="line dash" d="M30 217 L14 217 L14 110 L44 110"/>
+
+<!-- decision panel -->
+<rect class="box heavy" x="170" y="210" width="256" height="120"/>
+<text class="label" x="180" y="228">Decision required — Dolor</text>
+<text class="tiny" x="180" y="246">Comment required if rejecting:</text>
+<rect class="control" x="180" y="252" width="236" height="34"/>
+<text class="tiny muted" x="186" y="266">Lorem ipsum…</text>
+<rect class="inverse" x="180" y="296" width="80" height="24"/><text class="small inverseText" x="196" y="312">Approve</text>
+<rect class="control" x="268" y="296" width="80" height="24"/><text class="small" x="286" y="312">Reject</text>
+<rect class="control" x="356" y="296" width="70" height="24"/><text class="small" x="364" y="312">Delegate</text>
+
+<!-- policy box -->
+<rect class="box dash" x="14" y="250" width="140" height="80"/>
+<text class="label" x="22" y="266">Policy P-7</text>
+<text class="tiny" x="22" y="282">2 approvals min</text>
+<text class="tiny" x="22" y="296">no self-approval</text>
+<text class="tiny" x="22" y="310">SLA 24h / step</text>
+<text class="tiny" x="22" y="324">escalate on breach</text>
+
+<text class="tiny dense" x="14" y="352">states: pending · approved · rejected · delegated · escalated · expired</text>
+<text class="tiny dense" x="14" y="368">disclosure: hover node = decision history + context of that step</text>
+<text class="tiny dense" x="14" y="384">manipulation: authorized editor can insert/reorder future steps only</text>
+<text class="tiny dense" x="14" y="400">audit: every transition immutable · who/when/why always visible</text>
+<text class="tiny dense" x="14" y="424">keyboard: Tab through steps · Enter opens step detail</text>
+<text class="tiny dense" x="14" y="440">reversibility: recall allowed before first approval · after = new request</text>
+<text class="tiny dense" x="14" y="462">empty state: “no pending requests” differs by role — viewer vs approver</text>
+</g>
+
+<!-- ============================================================ -->
+<!-- 16 ACTION CONSOLE -->
+<!-- ============================================================ -->
+<g transform="translate(1400,1600)">
+<rect class="panel" x="0" y="0" width="440" height="470"/>
+<text class="num" x="14" y="22">16</text><text class="label" x="40" y="22">Action console — speed keypad</text>
+<line class="line" x1="14" y1="32" x2="426" y2="32"/>
+
+<!-- readout -->
+<rect class="inverse" x="14" y="42" width="240" height="34"/>
+<text class="heading inverseText" x="24" y="66">1,240.00</text>
+<text class="tiny muted" x="270" y="58">operator: Lorem</text>
+<text class="tiny muted" x="270" y="72">session: 02:14:33</text>
+
+<!-- keypad 4x4 -->
+<g>
+<rect class="control" x="14" y="88" width="58" height="44"/><text class="small" x="38" y="114">7</text>
+<rect class="control" x="76" y="88" width="58" height="44"/><text class="small" x="100" y="114">8</text>
+<rect class="control" x="138" y="88" width="58" height="44"/><text class="small" x="162" y="114">9</text>
+<rect class="control heavy" x="200" y="88" width="58" height="44"/><text class="small" x="218" y="114">Void</text>
+<rect class="control" x="14" y="136" width="58" height="44"/><text class="small" x="38" y="162">4</text>
+<rect class="control" x="76" y="136" width="58" height="44"/><text class="small" x="100" y="162">5</text>
+<rect class="control" x="138" y="136" width="58" height="44"/><text class="small" x="162" y="162">6</text>
+<rect class="control heavy" x="200" y="136" width="58" height="44"/><text class="small" x="212" y="162">Disc%</text>
+<rect class="control" x="14" y="184" width="58" height="44"/><text class="small" x="38" y="210">1</text>
+<rect class="control focus" x="76" y="184" width="58" height="44"/><text class="small" x="100" y="210">2</text>
+<rect class="control" x="138" y="184" width="58" height="44"/><text class="small" x="162" y="210">3</text>
+<rect class="control disabled" x="200" y="184" width="58" height="44"/><text class="small" x="214" y="210">Refund</text>
+<rect class="control" x="14" y="232" width="58" height="44"/><text class="small" x="38" y="258">0</text>
+<rect class="control" x="76" y="232" width="58" height="44"/><text class="small" x="100" y="258">.</text>
+<rect class="control" x="138" y="232" width="58" height="44"/><text class="small" x="156" y="258">Qty</text>
+<rect class="inverse" x="200" y="232" width="58" height="44"/><text class="small inverseText" x="214" y="258">Enter</text>
+</g>
+<text class="tiny dense" x="14" y="292">focus visible on key 2 · Refund disabled (no permission)</text>
+
+<!-- summary panel -->
+<rect class="box" x="270" y="88" width="156" height="188"/>
+<text class="label" x="278" y="104">Current</text>
+<text class="tiny" x="278" y="122">Lorem — 2 × 120</text>
+<text class="tiny" x="278" y="138">Ipsum — 1 × 400</text>
+<text class="tiny" x="278" y="154">Dolor — 3 × 200</text>
+<line class="hair" x1="278" y1="164" x2="418" y2="164"/>
+<text class="tiny" x="278" y="180">Subtotal 1,240</text>
+<text class="tiny" x="278" y="196">Adjust −40</text>
+<line class="heavy" x1="278" y1="204" x2="418" y2="204"/>
+<text class="strong" x="278" y="222">Total 1,200</text>
+<rect class="inverse" x="278" y="236" width="140" height="28"/><text class="small inverseText" x="300" y="254">Commit</text>
+
+<!-- held list -->
+<rect class="box dash" x="14" y="306" width="240" height="60"/>
+<text class="label" x="22" y="322">Held (2)</text>
+<text class="tiny" x="22" y="338">#1042 — 3 items · 640</text>
+<text class="tiny" x="22" y="352">#1043 — 1 item · 85 — resume</text>
+
+<!-- function row -->
+<rect class="control" x="14" y="378" width="62" height="22"/><text class="tiny" x="24" y="393">F1 Hold</text>
+<rect class="control" x="82" y="378" width="62" height="22"/><text class="tiny" x="90" y="393">F2 Recall</text>
+<rect class="control" x="150" y="378" width="62" height="22"/><text class="tiny" x="158" y="393">F3 Price</text>
+<rect class="control" x="218" y="378" width="62" height="22"/><text class="tiny" x="226" y="393">F4 Report</text>
+<rect class="control" x="286" y="378" width="62" height="22"/><text class="tiny" x="294" y="393">F5 Admin</text>
+<rect class="control" x="354" y="378" width="62" height="22"/><text class="tiny" x="362" y="393">F6 Lock</text>
+
+<text class="tiny dense" x="14" y="420">states: idle · entering · held · committing · committed · void-pending</text>
+<text class="tiny dense" x="14" y="436">every key reachable by keyboard alone · no mouse required at all</text>
+<text class="tiny dense" x="14" y="452">dangerous keys (Void/Refund) = confirm + permission + audit entry</text>
+<text class="tiny dense" x="14" y="468">undo: void is itself a recorded reversal, not silent deletion</text>
+</g>
+
+<!-- ============ FOOTER ============ -->
+<text class="label" x="30" y="2110">Sixteen archetypes, one contract</text>
+<text class="small" x="30" y="2128">Form · Board · Calendar · Map · Flow · Chat · Document · Gallery · Feed · Wizard · Inbox · Plan · Search · Diff · Chain · Console — each carries primary action, context actions, manipulation, disclosure, reversibility, states, and keyboard parity. None assumes another's layout.</text>
+<text class="tiny muted" x="30" y="2144">Monochrome structural specimen · sans-serif only · Lorem ipsum placeholder content · line weight and dash encode state · no color, brand, radius, or domain decisions</text>
+</svg>

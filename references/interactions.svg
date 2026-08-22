@@ -1,0 +1,225 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1000" width="1600" height="1000" role="img" aria-labelledby="t d">
+<title id="t">Master dense control surface — abstract structural specimen</title>
+<desc id="d">Extremely dense, taste-neutral, monochrome SVG specimen. Sans-serif only. Lorem ipsum content. No domain assumptions. Multiple overlapping layers, annotations, states, and controls.</desc>
+<style>
+  :root{color-scheme:light dark}
+  svg{font-family:Arial,Helvetica,sans-serif;color:CanvasText;background:Canvas}
+  text{fill:currentColor;font-family:Arial,Helvetica,sans-serif}
+  .p,.b,.c,.l{fill:none;stroke:currentColor;vector-effect:non-scaling-stroke}
+  .l{stroke-width:1}.c{stroke-width:1}.b{stroke-width:1.25}.p{stroke-width:1.5}
+  .h{stroke-width:2.5}.d{stroke-dasharray:6 4}.o{stroke-dasharray:2 3}.x{stroke-dasharray:10 4 2 4}
+  .g{opacity:.45}.m{opacity:.65}.f{opacity:.25}.s{stroke-width:3}.i{stroke-width:3;stroke-dasharray:3 3}
+  .t{font-size:10px}.u{font-size:11px;letter-spacing:.06em;text-transform:uppercase}.v{font-size:12px}.w{font-size:13px}.y{font-size:14px;font-weight:700}.z{font-size:16px;font-weight:700}
+  .n{fill:Canvas;stroke:currentColor}.r{fill:currentColor}.q{fill:Canvas}
+  .row:hover .hl{stroke-width:3}.hl{stroke-width:1}
+</style>
+
+<!-- BACKGROUND FRAME -->
+<rect class="p h" x="10" y="10" width="1580" height="980"/>
+<text class="z" x="24" y="38">DENSE CONTROL SURFACE — STRUCTURAL SPECIMEN 01</text>
+<text class="v" x="24" y="56">No palette · no radius · no shadow · no brand · no domain · no monospace · no assumptions</text>
+<text class="t m" x="24" y="70">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</text>
+
+<!-- GLOBAL COMMAND BAND -->
+<rect class="p" x="24" y="80" width="1552" height="48"/>
+<text class="u" x="34" y="96">Global command band</text>
+<rect class="b" x="34" y="102" width="220" height="20"/><text class="v" x="42" y="116">⌕ Lorem ipsum dolor…</text>
+<rect class="b" x="262" y="102" width="96" height="20"/><text class="v" x="272" y="116">Dolor ▾</text>
+<rect class="b" x="366" y="102" width="96" height="20"/><text class="v" x="376" y="116">Sit amet ▾</text>
+<rect class="b" x="470" y="102" width="96" height="20"/><text class="v" x="480" y="116">Elit sed ▾</text>
+<line class="l" x1="574" y1="94" x2="574" y2="122"/>
+<text class="v" x="584" y="116">⌘K</text><text class="v" x="620" y="116">⇧F10</text><text class="v" x="672" y="116">⌥↑↓</text><text class="v" x="724" y="116">⌥←→</text>
+<text class="t m" x="780" y="115">command · context · reorder · transfer · resize</text>
+<rect class="b" x="1180" y="102" width="80" height="20"/><text class="v" x="1190" y="116">Compact</text>
+<rect class="b" x="1268" y="102" width="70" height="20"/><text class="v" x="1280" y="116">Loose</text>
+<rect class="b" x="1346" y="102" width="70" height="20"/><text class="v" x="1358" y="116">Dense</text>
+<rect class="b" x="1424" y="102" width="140" height="20"/><text class="v" x="1434" y="116">Lorem ipsum ▾</text>
+<text class="t m" x="34" y="124">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</text>
+
+<!-- LEFT HIERARCHY -->
+<rect class="p" x="24" y="140" width="250" height="820"/>
+<text class="u" x="34" y="158">Hierarchical scope</text>
+<rect class="b" x="34" y="166" width="230" height="20"/><text class="v" x="42" y="180">⌕ Lorem ipsum</text>
+<line class="l" x1="34" y1="194" x2="264" y2="194"/>
+<text class="y" x="36" y="214">▾ Lorem ipsum dolor</text>
+<text class="w" x="52" y="234">▾ Sit amet consectetur</text>
+<rect class="b s" x="46" y="242" width="210" height="22"/><text class="w" x="62" y="258">▸ Adipiscing elit sed</text>
+<text class="w" x="62" y="280">▸ Do eiusmod tempor</text>
+<text class="w" x="52" y="302">▸ Incididunt ut labore</text>
+<text class="y" x="36" y="330">▸ Et dolore magna</text>
+<text class="y" x="36" y="360">▾ Aliqua ut enim</text>
+<text class="w" x="52" y="382">▸ Ad minim veniam</text>
+<text class="w" x="52" y="404">▸ Quis nostrud</text>
+<text class="w" x="52" y="426">▸ Exercitation ullamco</text>
+<line class="l" x1="34" y1="444" x2="264" y2="444"/>
+<text class="u" x="34" y="464">Saved structures</text>
+<text class="w" x="36" y="486">◇ Laboris nisi ut</text>
+<text class="w" x="36" y="508">◇ Aliquip ex ea</text>
+<text class="w" x="36" y="530">◇ Commodo consequat</text>
+<text class="w" x="36" y="552">◇ Duis aute irure</text>
+<line class="l" x1="34" y1="570" x2="264" y2="570"/>
+<text class="u" x="34" y="590">State inventory</text>
+<text class="v" x="36" y="612">☑ Default</text><text class="v" x="36" y="632">☑ Hover</text><text class="v" x="36" y="652">☑ Focused</text><text class="v" x="36" y="672">☑ Selected</text>
+<text class="v" x="36" y="692">☑ Expanded</text><text class="v" x="36" y="712">☑ Context open</text><text class="v" x="36" y="732">☑ Dragging</text><text class="v" x="36" y="752">☑ Valid target</text>
+<text class="v" x="36" y="772">☑ Invalid target</text><text class="v" x="36" y="792">☑ Undo available</text><text class="v" x="36" y="812">☑ Loading</text><text class="v" x="36" y="832">☑ Empty</text>
+<text class="v" x="36" y="852">☑ Denied</text><text class="v" x="36" y="872">☑ Error</text><text class="v" x="36" y="892">☑ Partial</text><text class="v" x="36" y="912">☑ Multi-select</text>
+<text class="t m" x="34" y="940">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</text>
+
+<!-- CENTER WORK AREA -->
+<rect class="p" x="286" y="140" width="980" height="820"/>
+<text class="u" x="298" y="158">Manipulation surface / identifying + operational tier</text>
+<text class="z" x="298" y="182">Lorem ipsum dolor sit amet</text>
+<text class="v m" x="298" y="200">Consectetur adipiscing elit · sed do eiusmod tempor · incididunt ut labore et dolore magna aliqua</text>
+
+<!-- local toolbar -->
+<rect class="b" x="298" y="212" width="70" height="22"/><text class="v" x="310" y="227">Lorem</text>
+<rect class="b" x="376" y="212" width="78" height="22"/><text class="v" x="388" y="227">Ipsum ▾</text>
+<rect class="b" x="462" y="212" width="78" height="22"/><text class="v" x="474" y="227">Dolor ▾</text>
+<rect class="b" x="548" y="212" width="78" height="22"/><text class="v" x="560" y="227">Sit ▾</text>
+<line class="l" x1="634" y1="210" x2="634" y2="236"/>
+<rect class="b" x="644" y="212" width="100" height="22"/><text class="v" x="654" y="227">3 selected</text>
+<text class="v" x="760" y="227">◫ ↕ ↔ ⊞ ⊟ ⋯</text>
+<rect class="b" x="1120" y="212" width="130" height="22"/><text class="v" x="1130" y="227">View structure ▾</text>
+<text class="t m" x="298" y="246">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</text>
+
+<!-- MAIN TABLE -->
+<g transform="translate(298,258)">
+<rect class="p" x="0" y="0" width="952" height="520"/>
+<rect class="p" x="0" y="0" width="952" height="26"/>
+<text class="t" x="6" y="17">☑</text>
+<text class="u" x="28" y="17">Lorem ipsum dolor</text>
+<text class="u" x="280" y="17">Sit amet</text>
+<text class="u" x="400" y="17">Consectetur</text>
+<text class="u" x="520" y="17">Adipiscing</text>
+<text class="u" x="640" y="17">Elit sed</text>
+<text class="u" x="760" y="17">Do eiusmod</text>
+<text class="u" y="17" x="880">Tempor</text>
+<line class="l" x1="22" y1="0" x2="22" y2="520"/><line class="l" x1="270" y1="0" x2="270" y2="520"/><line class="l" x1="390" y1="0" x2="390" y2="520"/><line class="l" x1="510" y1="0" x2="510" y2="520"/><line class="l" x1="630" y1="0" x2="630" y2="520"/><line class="l" x1="750" y1="0" x2="750" y2="520"/><line class="l" x1="870" y1="0" x2="870" y2="520"/>
+
+<!-- rows -->
+<g class="row"><rect class="hl" x="0" y="26" width="952" height="24" fill="none" stroke="currentColor"/><text class="v" x="6" y="42">☑</text><text class="v" x="28" y="42">≡ ▾ Lorem ipsum dolor sit amet</text><text class="v" x="280" y="42">Dolor</text><text class="v" x="400" y="42">12 / 18</text><text class="v" x="520" y="42">Consectetur</text><text class="v" x="640" y="42">Adipiscing</text><text class="v" x="760" y="42">Elit</text><text class="v" x="880" y="42">•••</text></g>
+<g><rect class="b d" x="22" y="50" width="930" height="44"/><text class="t m" x="34" y="66">ON-DEMAND CONTEXTUAL + DIAGNOSTIC TIER</text><text class="v" x="34" y="82">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</text><text class="v" x="700" y="82">◉ Ipsum ◇ Dolor ⓘ Sit</text></g>
+<g class="row"><rect class="hl s" x="0" y="94" width="952" height="24" fill="none" stroke="currentColor"/><text class="v" x="6" y="110">☑</text><text class="v" x="28" y="110">≡ ▸ Ipsum dolor sit amet</text><text class="v" x="280" y="110">Ipsum</text><text class="v" x="400" y="110">08 / 18</text><text class="v" x="520" y="110">Adipiscing</text><text class="v" x="640" y="110">Tempor</text><text class="v" x="760" y="110">Incididunt</text><text class="v" x="880" y="110">•••</text></g>
+<g class="row"><rect class="hl s" x="0" y="118" width="952" height="24" fill="none" stroke="currentColor"/><text class="v" x="6" y="134">☑</text><text class="v" x="28" y="134">≡ ▸ Dolor sit amet elit</text><text class="v" x="280" y="134">Amet</text><text class="v" x="400" y="134">04 / 18</text><text class="v" x="520" y="134">Eiusmod</text><text class="v" x="640" y="134">Labore</text><text class="v" x="760" y="134">Dolore</text><text class="v" x="880" y="134">•••</text></g>
+<g class="row"><rect class="hl" x="0" y="142" width="952" height="24" fill="none" stroke="currentColor"/><text class="v" x="6" y="158">☐</text><text class="v" x="28" y="158">≡ ▸ Sit amet consectetur</text><text class="v" x="280" y="158">Elit</text><text class="v" x="400" y="158">16 / 18</text><text class="v" x="520" y="158">Incididunt</text><text class="v" x="640" y="158">Dolore</text><text class="v" x="760" y="158">Magna</text><text class="v" x="880" y="158">•••</text></g>
+<rect class="s d" x="0" y="170" width="952" height="20" fill="none" stroke="currentColor"/><text class="t" x="360" y="184">VALID INSERTION TARGET — release to place</text>
+<g class="row g"><rect class="hl" x="0" y="190" width="952" height="24" fill="none" stroke="currentColor"/><text class="v" x="6" y="206">☐</text><text class="v" x="28" y="206">≡ ▸ Amet adipiscing elit</text><text class="v" x="280" y="206">Tempor</text><text class="v" x="400" y="206">02 / 18</text><text class="v" x="520" y="206">Magna</text><text class="v" x="640" y="206">Aliqua</text><text class="v" x="760" y="206">Ut enim</text><text class="v" x="880" y="206">•••</text></g>
+<rect class="i" x="0" y="218" width="952" height="34" fill="none" stroke="currentColor"/><text class="t" x="300" y="232">INVALID TARGET — constraint prevents placement</text><text class="v" x="330" y="246">⊘ Lorem ipsum dolor sit amet</text>
+<g class="f"><rect class="l" x="0" y="252" width="952" height="24"/><text class="v" x="6" y="268">☐</text><text class="v" x="28" y="268">≡ ▸ Sed do eiusmod</text><text class="v" x="280" y="268">N/A</text><text class="v" x="400" y="268">—</text><text class="v" x="520" y="268">Disabled</text></g>
+<g class="m"><rect class="l d" x="0" y="276" width="952" height="24"/><text class="v" x="28" y="292">◌ Loading structural row…</text></g>
+<g><rect class="l o" x="0" y="300" width="952" height="24"/><text class="v" x="28" y="316">∅ Empty branch — no child structures</text></g>
+<g><rect class="l" x="0" y="324" width="952" height="40"/><text class="v" x="28" y="340">! Error / partial state</text><text class="t" x="28" y="354">Lorem ipsum dolor sit amet. Retry · inspect · retain local state</text></g>
+<g class="row"><rect class="hl" x="0" y="364" width="952" height="24" fill="none" stroke="currentColor"/><text class="v" x="6" y="380">☐</text><text class="v" x="28" y="380">≡ ▸ Tempor incididunt</text><text class="v" x="280" y="380">Ut</text><text class="v" x="400" y="380">09 / 18</text><text class="v" x="520" y="380">Labore</text><text class="v" x="640" y="380">Dolore</text><text class="v" x="760" y="380">Magna</text><text class="v" x="880" y="380">•••</text></g>
+<g class="row"><rect class="hl" x="0" y="388" width="952" height="24" fill="none" stroke="currentColor"/><text class="v" x="6" y="404">☐</text><text class="v" x="28" y="404">≡ ▸ Ut labore et dolore</text><text class="v" x="280" y="404">Magna</text><text class="v" x="400" y="404">11 / 18</text><text class="v" x="520" y="404">Aliqua</text><text class="v" x="640" y="404">Ut enim</text><text class="v" x="760" y="404">Ad minim</text><text class="v" x="880" y="404">•••</text></g>
+<g class="row"><rect class="hl" x="0" y="412" width="952" height="24" fill="none" stroke="currentColor"/><text class="v" x="6" y="428">☐</text><text class="v" x="28" y="428">≡ ▸ Magna aliqua ut</text><text class="v" x="280" y="428">Enim</text><text class="v" x="400" y="428">07 / 18</text><text class="v" x="520" y="428">Ad minim</text><text class="v" x="640" y="428">Veniam</text><text class="v" x="760" y="428">Quis</text><text class="v" x="880" y="428">•••</text></g>
+<g class="row"><rect class="hl" x="0" y="436" width="952" height="24" fill="none" stroke="currentColor"/><text class="v" x="6" y="452">☐</text><text class="v" x="28" y="452">≡ ▸ Ad minim veniam</text><text class="v" x="280" y="452">Quis</text><text class="v" x="400" y="452">14 / 18</text><text class="v" x="520" y="452">Nostrud</text><text class="v" x="640" y="452">Exercitation</text><text class="v" x="760" y="452">Ullamco</text><text class="v" x="880" y="452">•••</text></g>
+<g class="row"><rect class="hl" x="0" y="460" width="952" height="24" fill="none" stroke="currentColor"/><text class="v" x="6" y="476">☐</text><text class="v" x="28" y="476">≡ ▸ Quis nostrud</text><text class="v" x="280" y="476">Exercitation</text><text class="v" x="400" y="476">05 / 18</text><text class="v" x="520" y="476">Ullamco</text><text class="v" x="640" y="476">Laboris</text><text class="v" x="760" y="476">Nisi</text><text class="v" x="880" y="476">•••</text></g>
+<g class="row"><rect class="hl" x="0" y="484" width="952" height="24" fill="none" stroke="currentColor"/><text class="v" x="6" y="500">☐</text><text class="v" x="28" y="500">≡ ▸ Exercitation ullamco</text><text class="v" x="280" y="500">Laboris</text><text class="v" x="400" y="500">13 / 18</text><text class="v" x="520" y="500">Nisi</text><text class="v" x="640" y="500">Ut aliquip</text><text class="v" x="760" y="500">Ex ea</text><text class="v" x="880" y="500">•••</text></g>
+</g>
+
+<!-- LOWER SPATIAL BAND -->
+<rect class="p" x="298" y="792" width="952" height="168"/>
+<text class="u" x="310" y="810">Spatial manipulation / synchronized secondary representation</text>
+<line class="l" x1="310" y1="828" x2="1238" y2="828"/>
+<line class="l" x1="380" y1="820" x2="380" y2="944"/><line class="l" x1="480" y1="820" x2="480" y2="944"/><line class="l" x1="580" y1="820" x2="580" y2="944"/><line class="l" x1="680" y1="820" x2="680" y2="944"/><line class="l" x1="780" y1="820" x2="780" y2="944"/><line class="l" x1="880" y1="820" x2="880" y2="944"/><line class="l" x1="980" y1="820" x2="980" y2="944"/><line class="l" x1="1080" y1="820" x2="1080" y2="944"/><line class="l" x1="1180" y1="820" x2="1180" y2="944"/>
+<text class="t" x="310" y="844">Lorem</text><text class="t" x="310" y="868">Ipsum</text><text class="t" x="310" y="892">Dolor</text><text class="t" x="310" y="916">Sit</text><text class="t" x="310" y="940">Amet</text>
+
+<text class="t m" x="310" y="958">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</text>
+
+<!-- RIGHT INSPECTOR -->
+<rect class="p" x="1278" y="140" width="298" height="820"/>
+<text class="u" x="1290" y="158">On-demand inspector / depth tier</text>
+<text class="z" x="1290" y="182">Lorem ipsum</text>
+<text class="v m" x="1290" y="200">Dolor sit amet · 08 / 18</text>
+<line class="l" x1="1290" y1="212" x2="1564" y2="212"/>
+<text class="u" x="1290" y="232">Identifying</text>
+<text class="v" x="1290" y="252">Lorem</text><text class="v" x="1420" y="252">Ipsum dolor</text>
+<text class="v" x="1290" y="272">Sit amet</text><text class="v" x="1420" y="272">Consectetur</text>
+<text class="v" x="1290" y="292">Adipiscing</text><text class="v" x="1420" y="292">Eiusmod</text>
+<line class="l" x1="1290" y1="306" x2="1564" y2="306"/>
+<text class="u" x="1290" y="326">Operational</text>
+<rect class="b" x="1290" y="336" width="130" height="22"/><text class="v" x="1300" y="351">Dolor sit ▾</text>
+<rect class="b" x="1428" y="336" width="136" height="22"/><text class="v" x="1438" y="351">Amet elit ▾</text>
+<rect class="b" x="1290" y="366" width="274" height="22"/><text class="v" x="1300" y="381">Consectetur adipiscing</text>
+<rect class="b" x="1290" y="396" width="90" height="22"/><text class="v" x="1300" y="411">12</text>
+<rect class="b" x="1388" y="396" width="176" height="22"/><text class="v" x="1398" y="411">Sed do eiusmod ▾</text>
+<line class="l" x1="1290" y1="432" x2="1564" y2="432"/>
+<text class="u" x="1290" y="452">Contextual disclosure</text>
+<text class="v" x="1290" y="472">▾ Lorem ipsum dolor</text>
+<text class="v" x="1306" y="492">Consectetur adipiscing elit, sed do</text>
+<text class="v" x="1306" y="510">eiusmod tempor incididunt ut labore.</text>
+<text class="v" x="1290" y="534">▸ Ipsum dolor sit amet</text>
+<text class="v" x="1290" y="558">▸ Adipiscing elit sed</text>
+<text class="v" x="1290" y="582">▸ Do eiusmod tempor</text>
+<line class="l" x1="1290" y1="598" x2="1564" y2="598"/>
+<text class="u" x="1290" y="618">Diagnostic</text>
+<rect class="b d" x="1290" y="628" width="274" height="76"/>
+<text class="v" x="1302" y="648">! Lorem ipsum dolor sit amet</text>
+<text class="t" x="1302" y="664">Consectetur adipiscing elit; tempor</text>
+<text class="t" x="1302" y="678">incididunt ut labore et dolore.</text>
+<text class="v" x="1302" y="694">Inspect · Retain · Dismiss</text>
+<line class="l" x1="1290" y1="718" x2="1564" y2="718"/>
+<text class="u" x="1290" y="738">History / reversibility</text>
+<text class="v" x="1290" y="760">↶ Undo last structure change</text>
+<text class="v" x="1290" y="782">↷ Redo</text>
+<text class="v m" x="1290" y="804">3 reversible operations retained</text>
+<text class="t m" x="1290" y="830">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</text>
+<text class="t m" x="1290" y="860">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</text>
+<text class="t m" x="1290" y="890">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</text>
+
+<!-- CONTEXT MENU OVERLAY -->
+<g transform="translate(980,380)">
+<rect class="n h" x="0" y="0" width="220" height="200"/>
+<text class="u" x="12" y="20">Context actions / state-valid</text>
+<line class="l" x1="0" y1="28" x2="220" y2="28"/>
+<rect class="b" x="6" y="34" width="208" height="24"/><text class="v" x="14" y="50">Lorem ipsum</text><text class="t" x="176" y="50">Enter</text>
+<text class="v" x="14" y="78">Dolor sit amet</text><text class="t" x="168" y="78">⌘D</text>
+<text class="v" x="14" y="104">Consectetur…</text><text class="t" x="176" y="104">→</text>
+<line class="l" x1="8" y1="114" x2="212" y2="114"/>
+<text class="v" x="14" y="136">Adipiscing elit</text><text class="t" x="170" y="136">⌥↑↓</text>
+<text class="v" x="14" y="162">Sed do eiusmod</text>
+<text class="v f" x="14" y="184">Tempor incididunt</text>
+</g>
+
+<!-- TOOLTIP OVERLAY -->
+<g transform="translate(700,300)">
+<path class="n h" d="M0 10 L14 10 L20 0 L26 10 L280 10 L280 74 L0 74 Z"/>
+<text class="y" x="12" y="30">Constraint and current-state disclosure</text>
+<text class="v" x="12" y="48">Lorem ipsum dolor sit amet; consectetur</text>
+<text class="v" x="12" y="64">adipiscing elit. Not a repeated label.</text>
+</g>
+
+<!-- DRAG GHOST -->
+<g class="g" transform="translate(620,700)">
+<rect class="n h d" x="0" y="0" width="340" height="42"/>
+<text class="v" x="14" y="18">≡ Lorem ipsum dolor — 3 selected</text>
+<text class="t" x="14" y="34">Pointer ghost · source retained · target evaluated live</text>
+</g>
+<path class="l d" d="M790 698 C790 670 760 650 760 620"/>
+
+<!-- UNDO TOAST -->
+<rect class="r" x="580" y="920" width="440" height="38"/>
+<text class="v q" x="596" y="944">Structure changed · 3 items · Undo | Inspect</text>
+
+<!-- OVERLAPPING ANNOTATIONS -->
+<text class="t m" x="300" y="270">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</text>
+<text class="t m" x="300" y="290">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</text>
+<text class="t m" x="300" y="310">Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</text>
+<text class="t m" x="300" y="330">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.</text>
+<text class="t m" x="300" y="350">Sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</text>
+<text class="t m" x="300" y="370">Ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</text>
+<text class="t m" x="300" y="390">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa.</text>
+<text class="t m" x="300" y="410">Qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.</text>
+<text class="t m" x="300" y="430">Et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor.</text>
+<text class="t m" x="300" y="450">In reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia.</text>
+<text class="t m" x="300" y="470">Deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</text>
+<text class="t m" x="300" y="490">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit.</text>
+<text class="t m" x="300" y="510">In voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit.</text>
+<text class="t m" x="300" y="530">Anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim.</text>
+<text class="t m" x="300" y="550">Ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate.</text>
+<text class="t m" x="300" y="570">Velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</text>
+
+<!-- FOOTER -->
+<text class="u" x="24" y="978">Encoded complexity</text>
+<text class="v" x="24" y="994">Primary action · context action · direct manipulation · disclosure · reversibility · multi-select · keyboard equivalence · density variance · depth tiers · exceptional states · overlapping annotation · spatial + tabular sync</text>
+</svg>
