@@ -4,7 +4,7 @@
 ![.github/Screenshot 1.png](.github/Screenshot 1.png)
 ![.github/Screenshot 2.png](.github/Screenshot 2.png)
 
-Enterprise screens (ERP/SCM/FSM) design system compatible with [SAP Foundation] on React, Vue, Angular (official), Flutter, and SAP OpenUI5 Web Components. Supports ~120 components split cleanly into primitives, data display, and navigation, and it explicitly separates "what it looks like" from "what it does". Defines only UI/UX (component index, content-density, context-menu conventions, best practices, guidlines), style-agnostic.
+Enterprise screens (ERP/SCM/FSM) design system compatible with [SAP Fundamentals](https://sap.github.io/fundamental-styles/?path=/docs/sap-design-introduction--docs) on React, Vue, Angular (official), Flutter, and SAP OpenUI5 Web Components. Supports ~120 components split cleanly into primitives, data display, and navigation, and it explicitly separates "what it looks like" from "what it does". Defines only UI/UX (component index, content-density, context-menu conventions, best practices, guidlines), style-agnostic.
 
 ## References
 
