@@ -18,7 +18,7 @@ Enterprise screens (ERP/SCM/FSM) design system compatible with [SAP Fundamentals
 cd ~/project                    # or mdkir -p ~/project && cd ~/project
 
 # Download the repository — no .git
-curl -L https://github.com/vadim-a-yegorov/uikit/archive/refs/heads/main.zip -o /tmp/uikit.zip && unzip -q /tmp/uikit.zip -d /tmp && cp -R /tmp/uikit-main/. .
+curl -L https://github.com/vadim-a-yegorov/uikit/archive/refs/heads/master.zip -o /tmp/uikit.zip && unzip -q /tmp/uikit.zip -d /tmp && cp -R /tmp/uikit-master/. .
 
 # Fill or replace blank DESIGN.md once per project
 mv DESIGN.Carbon_V11.md DESIGN.md
